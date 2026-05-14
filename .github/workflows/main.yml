@@ -17,5 +17,6 @@ jobs:
         java-version: '8'
         distribution: 'temurin'
 
-    - name: Build and Test
-      run: mvn clean test
+- name: Build and Test
+  working-directory: simplews
+  run: mvn clean test
