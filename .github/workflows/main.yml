@@ -20,3 +20,4 @@ jobs:
 - name: Build and Test
   working-directory: simplews
   run: mvn clean test
+  
